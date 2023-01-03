@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Coaching Village",
+    "slug": "coaching-village-user",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon-app.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#cccccc"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#04c0dc",
+      "translucent": false
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coaching.village.app.user"
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-app.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.coaching_village_app_user"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
